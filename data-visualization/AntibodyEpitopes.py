@@ -8,7 +8,6 @@ bcell_filepath = "bcell.csv"
 bcell_data = pd.read_csv(bcell_filepath, index_col = "parent_protein_id")
 
 print(bcell_data.head())
-#print(type(bcell_data['start_position'][0]))
 
 difference_list = []
 
